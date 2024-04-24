@@ -13,4 +13,3 @@ class BotTest(unittest.TestCase):
         self.assertIn('Kili', mock_print.call_args_list[0][0][0])
         self.assertEqual(2, mock_print.call_count)
         mock_print.assert_called_with("Let's play!")
-
